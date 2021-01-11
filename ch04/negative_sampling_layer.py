@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from common.config import GPU
 from common.layers import Embedding
 import numpy as np
@@ -84,4 +85,9 @@ class NegativeSamplingLoss:
     def forward(self,h,target):
         batch_size=target.shape[0]
         negative_sample=self.sampler.get_negative_sample(target)
+=======
+from common.layers import Embedding
+from numpy as np
+
+>>>>>>> origin/main
 
