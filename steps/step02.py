@@ -22,6 +22,7 @@ class Variable:
 
 class Function:
     #클래스의 객체도 호출하게 해주는 함수
+    #f=Function(), f(x)로 호출 가능
     def __call__(self, input):
         x=input.data
         y=self.forward(x)
