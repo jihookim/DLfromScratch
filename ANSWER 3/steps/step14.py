@@ -81,6 +81,7 @@ def add(x0, x1):
 
 x = Variable(np.array(3.0))
 y = add(x, x)
+
 y.backward()
 print(x.grad)
 
